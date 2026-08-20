@@ -247,7 +247,7 @@ setTimeout(
 
 const storyImages = [
 
-  "images/クエスト受注.png"
+  "クエスト受注.png"
 
 ];
 
