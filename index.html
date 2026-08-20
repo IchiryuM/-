@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+  >
+
+  <title>妖怪パッド</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main id="boot-screen">
+
+    <div class="boot-panel">
+
+      <div class="system-label">
+        YOKAI PAD SYSTEM
+      </div>
+
+      <!-- 目 -->
+      <div class="eyes">
+
+        <div class="eye">
+          <div class="pupil"></div>
+        </div>
+
+        <div class="eye">
+          <div class="pupil"></div>
+        </div>
+
+      </div>
+
+
+      <!-- ローディング -->
+      <div class="loading-area">
+
+        <div class="loading-bar">
+
+          <div id="progress"></div>
+
+          <!-- 牙 -->
+          <div id="fang"></div>
+
+        </div>
+
+        <div id="percent">
+          0%
+        </div>
+
+      </div>
+
+
+      <!-- メッセージ -->
+      <p id="status">
+        Loading...
+      </p>
+
+
+      <!-- START -->
+      <button id="start-button" hidden>
+        はじめる！
+      </button>
+
+    </div>
+
+  </main>
+
+    <!-- =========================
+       クエスト受注・ストーリー画面
+  ========================== -->
+
+  <main id="story-screen" hidden>
+
+    <div id="story-container">
+
+      <img
+        id="story-image"
+        src=""
+        alt="ストーリー画面"
+      >
+
+      <button
+        id="story-next"
+        aria-label="次へ"
+      ></button>
+
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
