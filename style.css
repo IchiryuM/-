@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  background-image: url("images/pad_background.png");
+  background-image: url("pad_background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -374,7 +374,7 @@ transition: transform 0.25s ease;
   width: 100vw;
   height: 100vh;
 
-  background-image: url("images/pad_background_story.png");
+  background-image: url("pad_background_story.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
